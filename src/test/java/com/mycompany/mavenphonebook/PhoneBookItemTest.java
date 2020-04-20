@@ -67,28 +67,8 @@ public class PhoneBookItemTest {
         fail("The test case is a prototype.");
     }
     
-    @Test
-    public void testNonEqualEntriesComeOutAsNonEqual() {
-        
-    }
     
-    @Test
-    public void testNonEqualEntries() {
-        
-    }
-
-    /**
-     * Test of setContactName method, of class PhoneBookItem.
-     */
-    @Test
-    public void testSetContactName() {
-        System.out.println("setContactName");
-        String ContactName = "";
-        PhoneBookItem instance = null;
-        instance.setContactName(ContactName);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+    
 
     /**
      * Test of getContactNumber method, of class PhoneBookItem.
@@ -104,17 +84,6 @@ public class PhoneBookItemTest {
         fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of setContactNumber method, of class PhoneBookItem.
-     */
-    @Test
-    public void testSetContactNumber() {
-        System.out.println("setContactNumber");
-        String ContactNumber = "";
-        PhoneBookItem instance = null;
-        instance.setContactNumber(ContactNumber);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+    
     
 }

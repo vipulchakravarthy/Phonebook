@@ -42,10 +42,7 @@ public class PhoneBookDataTest {
      */
     
     
-    @Test
-    public void testYouCantAddADuplicateEntryToPhoneBook() {
-        
-    }
+    
             
             
             
@@ -81,18 +78,7 @@ public class PhoneBookDataTest {
     /**
      * Test of findContactAt method, of class PhoneBookData.
      */
-    @Test
-    public void testFindContactAt() {
-        System.out.println("findContactAt");
-        String _contactName = "";
-        String _contactNumber = "";
-        PhoneBookData instance = new PhoneBookData();
-        int expResult = 0;
-        int result = instance.findContactAt(_contactName, _contactNumber);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+    
 
     /**
      * Test of deleteContact method, of class PhoneBookData.
